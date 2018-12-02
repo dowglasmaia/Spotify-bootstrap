@@ -98,10 +98,43 @@ nav.navbar-transparente{
 	color: black;
 }
 
+/*--- Serviços ---*/
+#servicos{
+	background: white;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.albuns{
+	padding: 10px 0px 10px 0px;
+}
+
+
+
+footer{
+	background: black;
+	height: 400px;
+}
 /*=====================Tipografia=======================*/
 h1{
 	font-size: 100px;
 	font-weight: 900px;
 	letter-spacing: -0.05em; /*deixando as Letras mais proximas*/
 	margin-bottom: 50px;
+}
+
+h2{
+	font-size: 50px;
+	font-weight: 700px;
+	letter-spacing: -0.04em; /*deixando as Letras mais proximas*/
+}
+
+h3{
+	font-size: 35px;
+	font-weight: 700px;
+	letter-spacing: -0.04em; /*deixando as Letras mais proximas*/
+}
+
+#servicos h2, #servicos h3 {
+	color: #7c25f8;
 }
