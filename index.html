@@ -5,10 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
    
-    <title>Spotify-DkMaia</title>
+    <title>SpotiMaia -  Músicas para Todos</title>
+    <link rel="icon" href="imagens/favicon.png">
 
     <!-- Bootstrap -->
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="estilo.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -17,10 +19,48 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-  <body>
-    <h1>Hello, world!</h1>
 
-    <button class="btn btn-primary">Click Aqui</button>
+  <body>   
+   
+   <!-- Navbar (Barra de Navegação) -->
+   <nav class="navbar navbar-fixed-top navbar-inverse navbar-transparente"> 
+    <div class="container">
+
+        <!-- header -->
+        <div class="navbar-header">
+
+          <!-- botão toggle -->
+          <button type="button" class="navbar-toggle collapsed"
+                  data-toggle="collapse" data-target="#menu">
+            <span class="sr-only">alternar navegação</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+
+          </button>
+
+          <a href="index.html" class="navbar-brand">
+            <span class="img-logo">SpotiMaya</span>
+          </a>
+        </div>
+
+        <!-- navbar -->
+        <div class="collapse navbar-collapse" id="menu">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="">Premium</a></li>
+            <li><a href="">Ajuda</a></li>
+            <li><a href="">Baixar</a></li>
+
+            <li class="divisor" role="separator"></li>
+            
+            <li><a href="">Inscreva-se</a></li>
+            <li><a href="">Entrar</a></li>
+          </ul>
+          
+        </div>
+
+    </div><!-- /Container -->
+  </nav>  <!-- /Nav -->
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>

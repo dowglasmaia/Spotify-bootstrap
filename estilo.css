@@ -1,0 +1,48 @@
+b/*
+@autor:Dowglas Maia
+Skype: live:dowglasmaia
+LinkedIn: www.linkedin.com/in/dowglasmaia;
+*/
+
+/*=====================layout===========================*/
+
+body{
+	
+	}
+
+			/* --Barra de Navegação-- */
+
+.img-logo{
+	height: 40px;
+	width: 132px;
+	display: block;
+	background: url('imagens/spotify.svg') no-repeat;
+	background-size: contain;
+	color: transparent;
+
+}
+
+nav.navbar-transparente{
+	padding:15px 0px;
+	background: rgba(0, 0, 0, 0.6); /* deixa a barra de navegação transparente*/
+	border: none;
+
+}
+.navbar-brand{
+	padding:5px 15px;
+}
+
+.divisor{
+	width: 1px;
+	height: 16px;
+	background: white;
+	margin: 16px 10px;
+}
+
+.navbar-inverse .navbar-nav>li>a{ /* Sobrescrevendo o stilo padrão do link do boostrap*/
+	color: white;
+}
+.navbar-inverse .navbar-nav>li>a:hover{/* Sobrescrevendo o stilo padrão do link do boostrap*/
+	color: #9bf0e1;
+}
+/*=====================Tipografia=======================*/
