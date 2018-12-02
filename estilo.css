@@ -1,14 +1,22 @@
-b/*
+/*
 @autor:Dowglas Maia
 Skype: live:dowglasmaia
 LinkedIn: www.linkedin.com/in/dowglasmaia;
 */
 
 /*=====================layout===========================*/
+html, body, .capa{
+	height: 100%;
+}
 
 body{
-	
-	}
+	 /* --composição de background -- */
+	background: url('imagens/capa.png'), 
+				url('imagens/ruido.png'),
+				linear-gradient(50deg,#FF69B4,#4B0082);
+	background-attachment: fixed; /* --deixa o background fixo -- */
+	font-family: Helvetica, Arial, sans-serif;
+}
 
 			/* --Barra de Navegação-- */
 
@@ -19,15 +27,14 @@ body{
 	background: url('imagens/spotify.svg') no-repeat;
 	background-size: contain;
 	color: transparent;
-
 }
 
 nav.navbar-transparente{
 	padding:15px 0px;
 	background: rgba(0, 0, 0, 0.6); /* deixa a barra de navegação transparente*/
 	border: none;
-
 }
+
 .navbar-brand{
 	padding:5px 15px;
 }
@@ -42,7 +49,59 @@ nav.navbar-transparente{
 .navbar-inverse .navbar-nav>li>a{ /* Sobrescrevendo o stilo padrão do link do boostrap*/
 	color: white;
 }
+
 .navbar-inverse .navbar-nav>li>a:hover{/* Sobrescrevendo o stilo padrão do link do boostrap*/
 	color: #9bf0e1;
 }
+
+/* --Imagem de Capa-- */
+.capa{
+	display: table; /*deixando a capa centralizada*/
+	width: 100%;    /*deixando a capa centralizada*/
+
+}
+.texto-capa{
+	text-align: center;
+	color: white;
+	display: table-cell; 	/*deixando a capa centralizada*/
+	vertical-align:middle;  /*deixando a capa centralizada*/
+	
+}
+
+/*--Butões --*/
+.btn-custom{
+	color: white;
+	border-radius: 500px;
+	-webkit-border-radius: 500px; /*para funcionar em diferentes browsers*/
+	-moz-border-radius: 500px; 	 
+	padding:10px 35px;
+	margin: 0px 15px; 
+	text-transform:uppercase;  /*deixa as Letras Maiúscilas*/
+	transition: background 0.4s, color 0.4s; /*Atraso na mudança de cor ao passar o mouse - deixando-o suave*/
+
+}
+
+.btn-roxo{
+	background: #7c25f8;
+}
+.btn-roxo:hover{
+	background-color: #6207e3;
+	color:white;
+}
+
+.btn-branco{
+	border: 2px solid white;
+
+}
+.btn-branco:hover{
+	background-color: white;
+	color: black;
+}
+
 /*=====================Tipografia=======================*/
+h1{
+	font-size: 100px;
+	font-weight: 900px;
+	letter-spacing: -0.05em; /*deixando as Letras mais proximas*/
+	margin-bottom: 50px;
+}
