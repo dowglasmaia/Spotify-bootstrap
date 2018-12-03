@@ -16,6 +16,7 @@ body{
 				linear-gradient(50deg,#FF69B4,#4B0082);
 	background-attachment: fixed; /* --deixa o background fixo -- */
 	font-family: Helvetica, Arial, sans-serif;
+	overflow-x: hidden;
 }
 
 			/* --Barra de Navegação-- */
@@ -109,6 +110,18 @@ nav.navbar-transparente{
 	padding: 10px 0px 10px 0px;
 }
 
+/*--- Recursos ---*/
+#recursos{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.ratacionar{
+	padding-left: 80px;
+	transform: rotate(30deg); /*--- da um efeito de ratação no iten que utilizar esta classe ---*/
+	-ms-transform: rotate(30deg); /*Para Funcionar no IE9*/
+	-webkit-transform: rotate(30deg); /*Para Funcionar no, Chrome, Safari, Opera ...*/
+}
 
 
 footer{
@@ -137,4 +150,8 @@ h3{
 
 #servicos h2, #servicos h3 {
 	color: #7c25f8;
+}
+
+#recursos h2, p, #recursos h3, p {
+	color: white;
 }
