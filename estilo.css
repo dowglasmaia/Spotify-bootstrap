@@ -25,7 +25,7 @@ body{
 	height: 40px;
 	width: 132px;
 	display: block;
-	background: url('imagens/spotify.svg') no-repeat;
+	background: url('imagens/maia.png') no-repeat;
 	background-size: contain;
 	color: transparent;
 }
@@ -161,7 +161,6 @@ h3{
 	text-transform: uppercase; /*deixa as Letras Todas Maiúsculas*/
 }
 
-}
 
 #servicos h2, #servicos h3 {
 	color: #7c25f8;
