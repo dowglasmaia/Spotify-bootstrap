@@ -123,6 +123,7 @@ nav.navbar-transparente{
 	transform: rotate(30deg); /*--- da um efeito de ratação no iten que utilizar esta classe ---*/
 	-ms-transform: rotate(30deg); /*Para Funcionar no IE9*/
 	-webkit-transform: rotate(30deg); /*Para Funcionar no, Chrome, Safari, Opera ...*/
+	
 }
 
 

@@ -1,0 +1,20 @@
+-------------------- Auto-Git Log --------------------
+		Thu Jun 13 2019 20:45:02 GMT-0300 (Hora oficial do Brasil)
+------------------------------------------------------
+
+Modified files:
+* estilo.css
+* imagens/spotify.svg
+* index.html
+
+
+Created files:
+* .autogit/autogit.json
+* imagens/44.svg
+* imagens/maia.png
+
+
+Deleted files:
+
+
+Renamed files:
